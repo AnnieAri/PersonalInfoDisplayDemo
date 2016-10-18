@@ -1,0 +1,495 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4CB496F379091B1355F3BC2A /* libPods-PersonalInfoDisplayDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 27D5D4EDF4802BF2D31B5A62 /* libPods-PersonalInfoDisplayDemo.a */; };
+		C8AC50DD1DB669C800571C2A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C8AC50DC1DB669C800571C2A /* main.m */; };
+		C8AC50E01DB669C800571C2A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C8AC50DF1DB669C800571C2A /* AppDelegate.m */; };
+		C8AC50E81DB669C800571C2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8AC50E71DB669C800571C2A /* Assets.xcassets */; };
+		C8AC50EB1DB669C800571C2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8AC50E91DB669C800571C2A /* LaunchScreen.storyboard */; };
+		C8AC50FC1DB66AB700571C2A /* PersonalInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8AC50F41DB66AB700571C2A /* PersonalInfoViewController.m */; };
+		C8AC50FD1DB66AB700571C2A /* YOHOARUserHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = C8AC50F71DB66AB700571C2A /* YOHOARUserHeaderView.m */; };
+		C8AC50FE1DB66AB700571C2A /* YOHOARUserHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C8AC50F81DB66AB700571C2A /* YOHOARUserHeaderView.xib */; };
+		C8AC50FF1DB66AB700571C2A /* YOHOMarkView.m in Sources */ = {isa = PBXBuildFile; fileRef = C8AC50FA1DB66AB700571C2A /* YOHOMarkView.m */; };
+		C8AC51001DB66AB700571C2A /* YOHOMarkView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C8AC50FB1DB66AB700571C2A /* YOHOMarkView.xib */; };
+		C8AC51191DB66AE900571C2A /* NSArray+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = C8AC51041DB66AE900571C2A /* NSArray+Addition.m */; };
+		C8AC511A1DB66AE900571C2A /* NSAttributedString+Additon.m in Sources */ = {isa = PBXBuildFile; fileRef = C8AC51061DB66AE900571C2A /* NSAttributedString+Additon.m */; };
+		C8AC511B1DB66AE900571C2A /* NSObject+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = C8AC51081DB66AE900571C2A /* NSObject+Addition.m */; };
+		C8AC511C1DB66AE900571C2A /* NSObject+Formula.m in Sources */ = {isa = PBXBuildFile; fileRef = C8AC510A1DB66AE900571C2A /* NSObject+Formula.m */; };
+		C8AC511D1DB66AE900571C2A /* NSString+path.m in Sources */ = {isa = PBXBuildFile; fileRef = C8AC510C1DB66AE900571C2A /* NSString+path.m */; };
+		C8AC511E1DB66AE900571C2A /* UIColor+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = C8AC510E1DB66AE900571C2A /* UIColor+Addition.m */; };
+		C8AC511F1DB66AE900571C2A /* UIImage+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = C8AC51101DB66AE900571C2A /* UIImage+Additions.m */; };
+		C8AC51201DB66AE900571C2A /* UIImage+Blur.m in Sources */ = {isa = PBXBuildFile; fileRef = C8AC51121DB66AE900571C2A /* UIImage+Blur.m */; };
+		C8AC51211DB66AE900571C2A /* UILabel+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = C8AC51141DB66AE900571C2A /* UILabel+Addition.m */; };
+		C8AC51221DB66AE900571C2A /* UIView+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = C8AC51161DB66AE900571C2A /* UIView+Addition.m */; };
+		C8AC51231DB66AE900571C2A /* UIView+HMCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = C8AC51181DB66AE900571C2A /* UIView+HMCategory.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		27D5D4EDF4802BF2D31B5A62 /* libPods-PersonalInfoDisplayDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PersonalInfoDisplayDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8AC50D81DB669C800571C2A /* PersonalInfoDisplayDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PersonalInfoDisplayDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8AC50DC1DB669C800571C2A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C8AC50DE1DB669C800571C2A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C8AC50DF1DB669C800571C2A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C8AC50E71DB669C800571C2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C8AC50EA1DB669C800571C2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C8AC50EC1DB669C800571C2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8AC50F31DB66AB700571C2A /* PersonalInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonalInfoViewController.h; sourceTree = "<group>"; };
+		C8AC50F41DB66AB700571C2A /* PersonalInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonalInfoViewController.m; sourceTree = "<group>"; };
+		C8AC50F61DB66AB700571C2A /* YOHOARUserHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YOHOARUserHeaderView.h; sourceTree = "<group>"; };
+		C8AC50F71DB66AB700571C2A /* YOHOARUserHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YOHOARUserHeaderView.m; sourceTree = "<group>"; };
+		C8AC50F81DB66AB700571C2A /* YOHOARUserHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YOHOARUserHeaderView.xib; sourceTree = "<group>"; };
+		C8AC50F91DB66AB700571C2A /* YOHOMarkView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YOHOMarkView.h; sourceTree = "<group>"; };
+		C8AC50FA1DB66AB700571C2A /* YOHOMarkView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YOHOMarkView.m; sourceTree = "<group>"; };
+		C8AC50FB1DB66AB700571C2A /* YOHOMarkView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YOHOMarkView.xib; sourceTree = "<group>"; };
+		C8AC51021DB66AE900571C2A /* Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Addition.h; sourceTree = "<group>"; };
+		C8AC51031DB66AE900571C2A /* NSArray+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Addition.h"; sourceTree = "<group>"; };
+		C8AC51041DB66AE900571C2A /* NSArray+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Addition.m"; sourceTree = "<group>"; };
+		C8AC51051DB66AE900571C2A /* NSAttributedString+Additon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+Additon.h"; sourceTree = "<group>"; };
+		C8AC51061DB66AE900571C2A /* NSAttributedString+Additon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+Additon.m"; sourceTree = "<group>"; };
+		C8AC51071DB66AE900571C2A /* NSObject+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Addition.h"; sourceTree = "<group>"; };
+		C8AC51081DB66AE900571C2A /* NSObject+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Addition.m"; sourceTree = "<group>"; };
+		C8AC51091DB66AE900571C2A /* NSObject+Formula.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Formula.h"; sourceTree = "<group>"; };
+		C8AC510A1DB66AE900571C2A /* NSObject+Formula.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Formula.m"; sourceTree = "<group>"; };
+		C8AC510B1DB66AE900571C2A /* NSString+path.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+path.h"; sourceTree = "<group>"; };
+		C8AC510C1DB66AE900571C2A /* NSString+path.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+path.m"; sourceTree = "<group>"; };
+		C8AC510D1DB66AE900571C2A /* UIColor+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Addition.h"; sourceTree = "<group>"; };
+		C8AC510E1DB66AE900571C2A /* UIColor+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Addition.m"; sourceTree = "<group>"; };
+		C8AC510F1DB66AE900571C2A /* UIImage+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Additions.h"; sourceTree = "<group>"; };
+		C8AC51101DB66AE900571C2A /* UIImage+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Additions.m"; sourceTree = "<group>"; };
+		C8AC51111DB66AE900571C2A /* UIImage+Blur.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Blur.h"; sourceTree = "<group>"; };
+		C8AC51121DB66AE900571C2A /* UIImage+Blur.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Blur.m"; sourceTree = "<group>"; };
+		C8AC51131DB66AE900571C2A /* UILabel+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Addition.h"; sourceTree = "<group>"; };
+		C8AC51141DB66AE900571C2A /* UILabel+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Addition.m"; sourceTree = "<group>"; };
+		C8AC51151DB66AE900571C2A /* UIView+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Addition.h"; sourceTree = "<group>"; };
+		C8AC51161DB66AE900571C2A /* UIView+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Addition.m"; sourceTree = "<group>"; };
+		C8AC51171DB66AE900571C2A /* UIView+HMCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HMCategory.h"; sourceTree = "<group>"; };
+		C8AC51181DB66AE900571C2A /* UIView+HMCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+HMCategory.m"; sourceTree = "<group>"; };
+		D6C701C8396A850A3EA6E6FA /* Pods-PersonalInfoDisplayDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PersonalInfoDisplayDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PersonalInfoDisplayDemo/Pods-PersonalInfoDisplayDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		DDD1BADC2F0C9A4E8C6E7DA8 /* Pods-PersonalInfoDisplayDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PersonalInfoDisplayDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-PersonalInfoDisplayDemo/Pods-PersonalInfoDisplayDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C8AC50D51DB669C700571C2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CB496F379091B1355F3BC2A /* libPods-PersonalInfoDisplayDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		67BC18507AB28B097F284AA1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				27D5D4EDF4802BF2D31B5A62 /* libPods-PersonalInfoDisplayDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8AE54B027F5F42E05E1D1996 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D6C701C8396A850A3EA6E6FA /* Pods-PersonalInfoDisplayDemo.debug.xcconfig */,
+				DDD1BADC2F0C9A4E8C6E7DA8 /* Pods-PersonalInfoDisplayDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C8AC50CF1DB669C700571C2A = {
+			isa = PBXGroup;
+			children = (
+				C8AC50DA1DB669C800571C2A /* PersonalInfoDisplayDemo */,
+				C8AC50D91DB669C800571C2A /* Products */,
+				8AE54B027F5F42E05E1D1996 /* Pods */,
+				67BC18507AB28B097F284AA1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C8AC50D91DB669C800571C2A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C8AC50D81DB669C800571C2A /* PersonalInfoDisplayDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C8AC50DA1DB669C800571C2A /* PersonalInfoDisplayDemo */ = {
+			isa = PBXGroup;
+			children = (
+				C8AC51011DB66AE900571C2A /* Additions */,
+				C8AC50F21DB66AB700571C2A /* 个人资料展示 */,
+				C8AC50DE1DB669C800571C2A /* AppDelegate.h */,
+				C8AC50DF1DB669C800571C2A /* AppDelegate.m */,
+				C8AC50E71DB669C800571C2A /* Assets.xcassets */,
+				C8AC50E91DB669C800571C2A /* LaunchScreen.storyboard */,
+				C8AC50EC1DB669C800571C2A /* Info.plist */,
+				C8AC50DB1DB669C800571C2A /* Supporting Files */,
+			);
+			path = PersonalInfoDisplayDemo;
+			sourceTree = "<group>";
+		};
+		C8AC50DB1DB669C800571C2A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C8AC50DC1DB669C800571C2A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C8AC50F21DB66AB700571C2A /* 个人资料展示 */ = {
+			isa = PBXGroup;
+			children = (
+				C8AC50F31DB66AB700571C2A /* PersonalInfoViewController.h */,
+				C8AC50F41DB66AB700571C2A /* PersonalInfoViewController.m */,
+				C8AC50F51DB66AB700571C2A /* View */,
+			);
+			path = "个人资料展示";
+			sourceTree = "<group>";
+		};
+		C8AC50F51DB66AB700571C2A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C8AC50F61DB66AB700571C2A /* YOHOARUserHeaderView.h */,
+				C8AC50F71DB66AB700571C2A /* YOHOARUserHeaderView.m */,
+				C8AC50F81DB66AB700571C2A /* YOHOARUserHeaderView.xib */,
+				C8AC50F91DB66AB700571C2A /* YOHOMarkView.h */,
+				C8AC50FA1DB66AB700571C2A /* YOHOMarkView.m */,
+				C8AC50FB1DB66AB700571C2A /* YOHOMarkView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C8AC51011DB66AE900571C2A /* Additions */ = {
+			isa = PBXGroup;
+			children = (
+				C8AC51021DB66AE900571C2A /* Addition.h */,
+				C8AC51031DB66AE900571C2A /* NSArray+Addition.h */,
+				C8AC51041DB66AE900571C2A /* NSArray+Addition.m */,
+				C8AC51051DB66AE900571C2A /* NSAttributedString+Additon.h */,
+				C8AC51061DB66AE900571C2A /* NSAttributedString+Additon.m */,
+				C8AC51071DB66AE900571C2A /* NSObject+Addition.h */,
+				C8AC51081DB66AE900571C2A /* NSObject+Addition.m */,
+				C8AC51091DB66AE900571C2A /* NSObject+Formula.h */,
+				C8AC510A1DB66AE900571C2A /* NSObject+Formula.m */,
+				C8AC510B1DB66AE900571C2A /* NSString+path.h */,
+				C8AC510C1DB66AE900571C2A /* NSString+path.m */,
+				C8AC510D1DB66AE900571C2A /* UIColor+Addition.h */,
+				C8AC510E1DB66AE900571C2A /* UIColor+Addition.m */,
+				C8AC510F1DB66AE900571C2A /* UIImage+Additions.h */,
+				C8AC51101DB66AE900571C2A /* UIImage+Additions.m */,
+				C8AC51111DB66AE900571C2A /* UIImage+Blur.h */,
+				C8AC51121DB66AE900571C2A /* UIImage+Blur.m */,
+				C8AC51131DB66AE900571C2A /* UILabel+Addition.h */,
+				C8AC51141DB66AE900571C2A /* UILabel+Addition.m */,
+				C8AC51151DB66AE900571C2A /* UIView+Addition.h */,
+				C8AC51161DB66AE900571C2A /* UIView+Addition.m */,
+				C8AC51171DB66AE900571C2A /* UIView+HMCategory.h */,
+				C8AC51181DB66AE900571C2A /* UIView+HMCategory.m */,
+			);
+			path = Additions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C8AC50D71DB669C700571C2A /* PersonalInfoDisplayDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8AC50EF1DB669C800571C2A /* Build configuration list for PBXNativeTarget "PersonalInfoDisplayDemo" */;
+			buildPhases = (
+				797CDB7078F8F63C9704D48E /* [CP] Check Pods Manifest.lock */,
+				C8AC50D41DB669C700571C2A /* Sources */,
+				C8AC50D51DB669C700571C2A /* Frameworks */,
+				C8AC50D61DB669C700571C2A /* Resources */,
+				24517D4D1AD6D4C50D35EC36 /* [CP] Embed Pods Frameworks */,
+				27ED573A0C4274479A95B9FA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PersonalInfoDisplayDemo;
+			productName = PersonalInfoDisplayDemo;
+			productReference = C8AC50D81DB669C800571C2A /* PersonalInfoDisplayDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C8AC50D01DB669C700571C2A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = com.Ari;
+				TargetAttributes = {
+					C8AC50D71DB669C700571C2A = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 55EMPZWFA4;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C8AC50D31DB669C700571C2A /* Build configuration list for PBXProject "PersonalInfoDisplayDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C8AC50CF1DB669C700571C2A;
+			productRefGroup = C8AC50D91DB669C800571C2A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C8AC50D71DB669C700571C2A /* PersonalInfoDisplayDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C8AC50D61DB669C700571C2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8AC50EB1DB669C800571C2A /* LaunchScreen.storyboard in Resources */,
+				C8AC50E81DB669C800571C2A /* Assets.xcassets in Resources */,
+				C8AC50FE1DB66AB700571C2A /* YOHOARUserHeaderView.xib in Resources */,
+				C8AC51001DB66AB700571C2A /* YOHOMarkView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		24517D4D1AD6D4C50D35EC36 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PersonalInfoDisplayDemo/Pods-PersonalInfoDisplayDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		27ED573A0C4274479A95B9FA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PersonalInfoDisplayDemo/Pods-PersonalInfoDisplayDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		797CDB7078F8F63C9704D48E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C8AC50D41DB669C700571C2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8AC50E01DB669C800571C2A /* AppDelegate.m in Sources */,
+				C8AC511F1DB66AE900571C2A /* UIImage+Additions.m in Sources */,
+				C8AC511C1DB66AE900571C2A /* NSObject+Formula.m in Sources */,
+				C8AC511D1DB66AE900571C2A /* NSString+path.m in Sources */,
+				C8AC50FF1DB66AB700571C2A /* YOHOMarkView.m in Sources */,
+				C8AC50FD1DB66AB700571C2A /* YOHOARUserHeaderView.m in Sources */,
+				C8AC511B1DB66AE900571C2A /* NSObject+Addition.m in Sources */,
+				C8AC51211DB66AE900571C2A /* UILabel+Addition.m in Sources */,
+				C8AC51201DB66AE900571C2A /* UIImage+Blur.m in Sources */,
+				C8AC50FC1DB66AB700571C2A /* PersonalInfoViewController.m in Sources */,
+				C8AC511A1DB66AE900571C2A /* NSAttributedString+Additon.m in Sources */,
+				C8AC51231DB66AE900571C2A /* UIView+HMCategory.m in Sources */,
+				C8AC51221DB66AE900571C2A /* UIView+Addition.m in Sources */,
+				C8AC511E1DB66AE900571C2A /* UIColor+Addition.m in Sources */,
+				C8AC50DD1DB669C800571C2A /* main.m in Sources */,
+				C8AC51191DB66AE900571C2A /* NSArray+Addition.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C8AC50E91DB669C800571C2A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C8AC50EA1DB669C800571C2A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C8AC50ED1DB669C800571C2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C8AC50EE1DB669C800571C2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C8AC50F01DB669C800571C2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6C701C8396A850A3EA6E6FA /* Pods-PersonalInfoDisplayDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 55EMPZWFA4;
+				INFOPLIST_FILE = PersonalInfoDisplayDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Ari.PersonalInfoDisplayDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C8AC50F11DB669C800571C2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDD1BADC2F0C9A4E8C6E7DA8 /* Pods-PersonalInfoDisplayDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 55EMPZWFA4;
+				INFOPLIST_FILE = PersonalInfoDisplayDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Ari.PersonalInfoDisplayDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C8AC50D31DB669C700571C2A /* Build configuration list for PBXProject "PersonalInfoDisplayDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8AC50ED1DB669C800571C2A /* Debug */,
+				C8AC50EE1DB669C800571C2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C8AC50EF1DB669C800571C2A /* Build configuration list for PBXNativeTarget "PersonalInfoDisplayDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8AC50F01DB669C800571C2A /* Debug */,
+				C8AC50F11DB669C800571C2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C8AC50D01DB669C700571C2A /* Project object */;
+}
